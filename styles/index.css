@@ -1,0 +1,21 @@
+h1{
+  text-align: center;
+}
+ul{
+  margin-right: 45px;
+}
+ul li {
+  list-style: none;
+  padding: 4px;
+  
+}
+li a{
+  text-decoration: none;
+}
+.lista{
+  margin-top:40px ;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
