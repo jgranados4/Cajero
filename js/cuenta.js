@@ -58,15 +58,5 @@ const resul =()=>{
 
     }
 }
-// //Ingreso de contrasena
-//  const ingreso = (resultado) => {
-//    if (resultado === "1234") {
-//      location = "consulta.html";
-//      Limpiar();
-//    } else {
-//      alert("error en el password");
-//      console.log(resultado);
-//    }
-//  };
 
 resul();
