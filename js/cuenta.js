@@ -50,7 +50,7 @@ const resul =()=>{
     }
     resul.onclick=function(){
         if(resultado.textContent==='1234'){
-            location='Bienvenido.html';
+            location='consulta.html';
         }else{
             console.log('no entra')
         }
