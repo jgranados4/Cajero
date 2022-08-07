@@ -1,5 +1,6 @@
 //digito de cuenta
 const resul =()=>{
+    let resul=document.getElementById("resul");
     let resultado=document.getElementById("resultado");
     let uno=document.getElementById("uno");
     let dos =document.getElementById("dos");
@@ -14,9 +15,11 @@ const resul =()=>{
     //eventos
     uno.onclick=function(e){
         resultado.textContent=resultado.textContent+"1";
+        console.log(resultado)
     }
     dos.onclick=function(e){
         resultado.textContent=resultado.textContent+"2";
+        console.log(resultado);
     }
     tres.onclick=function(e){
         resultado.textContent=resultado.textContent+"3";
@@ -42,6 +45,27 @@ const resul =()=>{
     cero.onclick=function(e){
         resultado.textContent=resultado.textContent+"0";
     }
+    function Limpiar(){
+        resultado.textContent="";
+    }
+    resul.onclick=function(){
+        if(resultado.textContent==='1234'){
+            location='Bienvenido.html';
+        }else{
+            console.log('no entra')
+        }
 
+    }
 }
+// //Ingreso de contrasena
+//  const ingreso = (resultado) => {
+//    if (resultado === "1234") {
+//      location = "consulta.html";
+//      Limpiar();
+//    } else {
+//      alert("error en el password");
+//      console.log(resultado);
+//    }
+//  };
+
 resul();
