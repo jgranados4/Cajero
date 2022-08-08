@@ -19,7 +19,8 @@ input{
     color: #e5e5e5;
 }
 input[type="button"]{
-    background-color: blue;
+    background-color: rgb(89, 89, 240);
 }
+
 
 
