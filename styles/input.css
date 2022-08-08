@@ -1,0 +1,10 @@
+.lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.lista input{
+    margin: 10px;
+    padding: 20px;
+}
