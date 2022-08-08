@@ -4,16 +4,30 @@ const Guardar = document.getElementById("guardar");
 const cuenta = document.getElementById("cuenta");
 const cedula = document.getElementById("cedula");
 const valordepos = document.getElementById("valordepos");
+const punt= document.getElementById("pun");
 //
 let factura = [];
 let arreglodetalle = [];
+//guardar al local storage
+function guardarlocal(a) {
+  localStorage.setItem("facturas", JSON.stringify(a));
+}
 Guardar.onclick = () => {
   let datos = {
     Cuenta: cuenta.value,
     Cedula: cedula.value,
     ValorDepos: valordepos.value,
   };
-  console.log(datos);
   factura.push(datos);
-  localStorage.setItem("facturas", JSON.stringify(factura));
+  guardarlocal(factura);
+  forma.reset();
 };
+
+//obtener 
+function obtener(b) {
+  if(localStorage.getItem(b)){
+    punt.innerHTML = localStorage.getItem(b);
+  }
+  
+}
+
