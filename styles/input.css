@@ -8,6 +8,7 @@
     margin: 10px;
     padding: 20px;
     background-color: rgba(6, 3, 3, 0.07);
+    cursor: pointer;
 }
 form *{
     font-family: 'Poppins',sans-serif;
