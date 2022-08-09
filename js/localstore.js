@@ -25,4 +25,5 @@ Guardar.onclick = () => {
   factura.push(datos);
   guardarlocal(factura);
   forma.reset();
+  location='deposito2.html';
 };
