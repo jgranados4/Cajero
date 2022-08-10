@@ -12,10 +12,6 @@ let arreglodetalle = [];
  function guardarlocal(a) {
   localStorage.setItem("facturas", JSON.stringify(a));
 }
-//obtener 
-function obtener(b) {
-  
-}
 Guardar.onclick = () => {
   let datos = {
     Cuenta: cuenta.value,
