@@ -6,6 +6,7 @@
 .otraimg{
     position: relative;
     top: 100px;
+    width: 300px;
 }
 .otraimg img {
     width: 500px;
