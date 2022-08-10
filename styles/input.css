@@ -11,7 +11,8 @@
     cursor: pointer;
 }
 form *{
-    color: #ffffff;
+    color: white;
+    font-weight: bold;
     letter-spacing: 0.5px;
     outline: none;
     border: none;
@@ -19,6 +20,7 @@ form *{
 input[type="button"]{
     background-color: rgb(41, 41, 44);
     font-family: 'Times New Roman', Times, serif;
+    border-radius: 4px;
 }
 ::placeholder{
     color: #e5e5e5;
