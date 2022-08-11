@@ -2,44 +2,43 @@
 const resul =()=>{
     let resul=document.getElementById("resul");
     let resultado=document.getElementById("resultado");
-    let uno=document.getElementById("uno");
-    let dos =document.getElementById("dos");
-    let tres=document.getElementById("tres");
-    let cuatro=document.getElementById("cuatro");
-    let cinco=document.getElementById("cinco");
-    let seis =document.getElementById("seis");
-    let siete=document.getElementById("siete");
-    let ocho=document.getElementById("ocho");
-    let nueve=document.getElementById("nueve");
-    let cero=document.getElementById("cero");
+    let diez=document.getElementById("diez");
+    let veinte =document.getElementById("veinte");
+    let treinta=document.getElementById("treinta");
+    let cuarenta=document.getElementById("cuarenta");
+    let cincuenta=document.getElementById("cincuenta");
+    let sesenta =document.getElementById("sesenta");
+    let ochenta=document.getElementById("ochenta");
+    let cien=document.getElementById("cien");
+    let otros=document.getElementById("otros");
     //eventos
-    uno.onclick=function(e){
-        resultado.textContent=resultado.textContent+"1";
+    diez.onclick=function(e){
+        resultado.textContent=resultado.textContent+"10";
         console.log(resultado)
     }
-    dos.onclick=function(e){
-        resultado.textContent=resultado.textContent+"2";
+    veinte.onclick=function(e){
+        resultado.textContent=resultado.textContent+"20";
         console.log(resultado);
     }
-    tres.onclick=function(e){
-        resultado.textContent=resultado.textContent+"3";
+    treinta.onclick=function(e){
+        resultado.textContent=resultado.textContent+"30";
     }
-    cuatro.onclick=function(e){
-        resultado.textContent=resultado.textContent+"4";
+    cuarenta.onclick=function(e){
+        resultado.textContent=resultado.textContent+"40";
     }
-    cinco.onclick=function(e){
-        resultado.textContent=resultado.textContent+"5";
+    cincuenta.onclick=function(e){
+        resultado.textContent=resultado.textContent+"50";
     }
-    seis.onclick=function(e){
-        resultado.textContent=resultado.textContent+"6";
+    sesenta.onclick=function(e){
+        resultado.textContent=resultado.textContent+"60";
     }
-    siete.onclick=function(e){
-        resultado.textContent=resultado.textContent+"7";
+    ochenta.onclick=function(e){
+        resultado.textContent=resultado.textContent+"80";
     }
-    ocho.onclick=function(e){
-        resultado.textContent=resultado.textContent+"8";
+    cien.onclick=function(e){
+        resultado.textContent=resultado.textContent+"100";
     }
-    nueve.onclick=function(e){
+    otros.onclick=function(e){
         resultado.textContent=resultado.textContent+"9";
     }
     cero.onclick=function(e){
