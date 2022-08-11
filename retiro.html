@@ -14,12 +14,21 @@
     <h1>Retiro</h1>
     <form action="" class="lista" id="formulario" >
         <label for="">Ingrese el Monto</label>
-        <input type="number" name=""  placeholder="Ingrese Monto 10-100" min="10" max="100" id="monto">
+        <select name="" id="Monto" class="optiones">
+            <option value="Seleccione" disabled selected >Seleccione</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="40">40</option>
+            <option value="50">50</option>
+            <option value="60">60</option>
+            <option value="80">80</option>
+            <option value="100">100</option>
+        </select>
         <label for="">Ingrese el Monto Especifico</label>
         <input type="number" name=""  placeholder="Ingrese Monto Especifico" step="any" id="montoEspeci" >
-        <input type="button" id="guardar" value="Enviar" class="guar">
+        <input type="button" id="guardar" value="Retirar" class="guar">
     </form>
-    <script src="js/limite.js"></script>
     <script src="js/retiro.js"></script>
 </body>
 </html>

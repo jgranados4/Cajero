@@ -1,22 +1,26 @@
 //Guardar
 const forma=document.getElementById('formulario');
 const Guardar = document.getElementById("guardar");
-const Monto = document.getElementById("monto");
+const monto = document.getElementById("Monto");
 const MontoEspecifico = document.getElementById("montoEspeci");
 //
-let factura = [];
+monto.addEventListener("change", function () {
+  var selectedOption = this.options[select.selectedIndex];
+  console.log(selectedOption.value + ": " + selectedOption.text);
+});
+let Retiros = [];
 //guardar al local storage
  function guardarlocal(a) {
-  localStorage.setItem("facturas", JSON.stringify(a));
+  localStorage.setItem("Retiros", JSON.stringify(a));
 }
 
 Guardar.onclick = () => {
   let datos = {
-    Montos: Monto.value,
+    Montos: monto.value,
     MontoEspecificos: MontoEspecifico.value,
   };
-  factura.push(datos);
-  guardarlocal(factura);
+  Retiros.push(datos);
+  guardarlocal(Retiros);
   forma.reset();
   location='retiGracias.html';
 };
