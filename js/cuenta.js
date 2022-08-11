@@ -41,9 +41,6 @@ const resul =()=>{
     otros.onclick=function(e){
         resultado.textContent=resultado.textContent+"9";
     }
-    cero.onclick=function(e){
-        resultado.textContent=resultado.textContent+"0";
-    }
     function Limpiar(){
         resultado.textContent="";
     }
