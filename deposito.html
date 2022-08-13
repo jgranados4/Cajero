@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/fondo.css">
-    <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="/styles/input.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/fondo.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="/styles/input.css" />
     <title>Deposito</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Deposito</h1>
     <form action="" id="formulario" class="lista">
-        <label for="">Digite Numero de Cuenta</label>
-        <input type="number" id="cuenta"placeholder="Digite Numero de Cuenta">
-        <label for="">Digite el Numero de Cedula</label>
-        <input type="number" id="cedula" placeholder="Digite el Numero de Cedula">
-        <label for="">Valor a Depositar</label>
-        <input type="number" step="any" id="valordepos" name="valordeposi"placeholder="Digite Valor a Depositar" >
-        <input type="button" id="guardar" value="Enviar" class="guar">
+      <label for="">Digite Numero de Cuenta</label>
+      <input type="number" id="cuenta" placeholder="Digite Numero de Cuenta" />
+      <label for="">Digite el Numero de Cedula</label>
+      <input
+        type="number"
+        id="cedula"
+        placeholder="Digite el Numero de Cedula"
+      />
+      <label for="">Valor a Depositar</label>
+      <input
+        type="number"
+        step="any"
+        id="valordepos"
+        name="valordeposi"
+        placeholder="Digite Valor a Depositar"
+      />
+      <input type="button" id="guardar" value="Enviar" class="guar" />
     </form>
     <script src="js/localstore.js"></script>
-</body>
+    <script src="js/digitomaximo.js"></script>
+  </body>
 </html>

@@ -1,36 +1,41 @@
-.lista{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+.lista {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
-.lista input{
-    margin: 10px;
-    padding: 20px;
-    background-color: rgba(6, 3, 3, 0.07);
-    cursor: pointer;
+.lista input {
+  margin: 10px;
+  padding: 20px;
+  background-color: rgba(6, 3, 3, 0.07);
+  cursor: pointer;
 }
-form *{
-    color: white;
-    font-weight: bold;
-    letter-spacing: 0.5px;
-    outline: none;
-    border: none;
+form * {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
 }
-input[type="button"]{
-    background-color: rgb(41, 41, 44);
-    font-family: 'Times New Roman', Times, serif;
-    border-radius: 4px;
+input[type="button"] {
+  background-color: rgb(41, 41, 44);
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 4px;
 }
-::placeholder{
-    color: #e5e5e5;
+::placeholder {
+  color: #e5e5e5;
 }
-select{
-    background-color: rgba(6, 3, 3, 0.07);
-    padding: 10px;
+select {
+  background-color: rgba(6, 3, 3, 0.07);
+  padding: 10px;
 }
-select option{
-    background-color: rgba(224, 34, 34, 0.07);
-    padding: 5px;
-    color: black;
+select option {
+  background-color: rgba(224, 34, 34, 0.07);
+  padding: 5px;
+  color: black;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
