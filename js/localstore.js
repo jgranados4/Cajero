@@ -1,5 +1,4 @@
 //Guardar
-
 const forma = document.getElementById("formulario");
 const Guardar = document.getElementById("guardar");
 const cuenta = document.getElementById("cuenta");
@@ -12,7 +11,7 @@ let arreglodetalle = [];
 function guardarlocal(a) {
   localStorage.setItem("facturas", JSON.stringify(a));
 }
-Guardar.onclick = () => {
+Guardar.onclick = (e) => {
   let datos = {
     Cuenta: cuenta.value,
     Cedula: cedula.value,
@@ -23,5 +22,4 @@ Guardar.onclick = () => {
   forma.reset();
   location = "deposito2.html";
 };
-
 
